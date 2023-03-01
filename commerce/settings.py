@@ -37,7 +37,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['commerce1.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['commerce1.herokuapp.com','127.0.0.1','localhost']
 
 # During development, you can instead set just the base URL
 # (you might decide to change the site a few times).
